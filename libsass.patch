@@ -1,0 +1,11 @@
+--- sassphp-0.2.1/src/php_sass.h~	2015-05-18 17:18:24.000000000 +0300
++++ sassphp-0.2.1/src/php_sass.h	2016-10-10 15:00:10.627915640 +0300
+@@ -21,7 +21,7 @@
+ #include <Zend/zend_extensions.h>
+ #include <Zend/zend_exceptions.h>
+ 
+-#include "lib/libsass/sass_context.h"
++#include <sass/context.h>
+ 
+ zend_class_entry *sass_ce;
+ zend_class_entry *sass_exception_ce;
