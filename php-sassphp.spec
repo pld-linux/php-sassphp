@@ -7,7 +7,7 @@
 Summary:	PHP bindings to libsass - fast, native Sass parsing in PHP
 Name:		%{php_name}-sassphp
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	PHP 3.01
 Group:		Development/Languages/PHP
 Source0:	https://github.com/sensational/sassphp/archive/v%{version}/sassphp-%{version}.tar.gz
